@@ -1,0 +1,46 @@
+body {
+    padding: 10%;
+  }
+  
+  h1 {
+      color: rgb(66, 165, 245);
+      text-align: left;
+      
+    }
+    ul {
+      margin: 0 0 10px;
+      padding: 0;
+    }
+    li {
+      font-size: 16px;
+      font-weight: 150;
+      height: 19px;
+      line-height: 1;
+      list-style: none;
+      color: rgb(66, 165, 245);
+  
+    
+    }
+  
+    .temperature {
+      color: rgb(66, 165, 245);
+      font-size: 64px;
+      font-weight: 400;
+      line-height: 1;
+    }
+  
+    .col{
+      text-align: center;
+      color: rgb(66, 165, 245);
+    }
+    
+    .weather-app {
+      border: 1px solid;
+      padding: 15px;
+      margin: -10px, auto;
+      border-radius: 5px;
+      max-width: 800px;
+      color: #CED4D9;
+    }
+  
+  
