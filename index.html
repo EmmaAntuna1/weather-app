@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parcel Sandbox</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
@@ -48,10 +48,11 @@
             <div class="clearfix">
               <div class="float-left">
                 <span class="temperature" id="temperature"></span
-                ><span class="units">°C</span>
+                ><span class="units">
+                  <a href="#" id ="celsius-link" class="active">°C</a> | 
+                  <a href="#" id="fahrenheit-link">°F</a></span>
               </div>
-        <p>
-            <ul>
+            <ul class="float-right">
             <li>
             Humidity: <span id="humidity"></span>%
             </li>
@@ -59,59 +60,15 @@
             Winds: <span id="wind"></span> km/h
             </li>
             </ul>
-
-        </p>
-        <div class="row">
-        <div class="col">
-          Monday 
-          <ul>
-          ☀️ 75°
-          </ul> 
-        </div>
-        <div class="col">
-            Tuesday
-            <ul>
-                ☀️ 80°
-            </ul> 
-          </div>
-          <div class="col">
-           Wednesday 
-           <ul>
-               ☀️ 90°
-           </ul>
-          </div>
-          <div class="col">
-            Thursday
-           <ul>
-             🌤 80°
-           </ul> 
-          </div>
-          <div class="col">
-            Friday
-            <ul>
-                ⛈ 67°
-            </ul>
-          </div>
-          <div class="col">
-            Saturday
-            <ul>
-                ⛈ 67°
-            </ul>
-          </div>
-          <div class="col">
-            Sunday
-            <ul>
-                ☀️ 75°
-            </ul>
-          </div>
-        </div>
-        <br /> 
     </div>     
 </div>
 </div>
 <small>
-    <a href="https://github.com/EmmaAntuna1/weather-app" target="_blank">Open-source code</code></a>
-    , by Emma Antuna
+  <a href="https://github.com/EmmaAntuna1/weather-app" target="_blank"
+  >Open-source on Github</a> and 
+  <a href="https://zen-dijkstra-75e27f.netlify.app/"
+  target="_blank"
+  >Netlify</a> coded by Emma Antuna
 </small>
     <script src="index.js"></script>
 </body>
